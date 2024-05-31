@@ -1828,7 +1828,7 @@ body::after {
 }
 
 .no-webp .feedback{
-  background: url("../img/feedback-block/01.png") bottom left no-repeat; }
+  background: url("../img/feedback-block/01.png") 100% 100% no-repeat; }
 
 .feedback {
   background-size: cover;
@@ -6616,4 +6616,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .webp .achievements{ background: url(../img/achievements-block/01.webp) bottom right no-repeat; }
 
-.webp .feedback{ background: url(../img/feedback-block/01.webp) bottom left no-repeat; }
+.webp .feedback{ background: url(../img/feedback-block/01.webp) 100% 100% no-repeat; }
