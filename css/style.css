@@ -1827,15 +1827,6 @@ body::after {
   transition: 0.3s ease;
 }
 
-.no-webp .feedback{
-  background: url("../img/feedback-block/01.png") 100% 100% no-repeat; }
-
-.feedback {
-  background-size: cover;
-  position: relative;
-  background-color: #000032;
-}
-
 .feedback__container {
   position: relative;
   padding-top: 4.375rem;
@@ -5065,10 +5056,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
             flex: 0 1 21.190716448%;
   }
 
-  .feedback {
-    background-position: center;
-  }
-
   .body-form-feedback__items {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -6615,5 +6602,3 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .webp .achievements{ background: url(../img/achievements-block/01.webp) bottom right no-repeat; }
-
-.webp .feedback{ background: url(../img/feedback-block/01.webp) 100% 100% no-repeat; }
